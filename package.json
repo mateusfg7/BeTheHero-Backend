@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mateusfg7/BeTheHero-Backend/issues"
   },
-  "homepage": "https://github.com/mateusfg7/BeTheHero-Backend#readme"
+  "homepage": "https://github.com/mateusfg7/BeTheHero-Backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
