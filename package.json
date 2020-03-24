@@ -4,7 +4,7 @@
   "description": "Backend da aplicação 'Be The Hero', feita na Semana Omnistack 11 da Rocketseat",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon insdex.js"
   },
   "repository": {
     "type": "git",
