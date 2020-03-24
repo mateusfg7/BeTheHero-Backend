@@ -108,3 +108,4 @@ dist
 
 # database
 knexfile.js
+db.sqlite
