@@ -1,5 +1,13 @@
-# BeTheHero-Backend
-Backend da aplicação 'Be The Hero', feita na Semana Omnistack 11 da Rocketseat
+<h1 style="text-align: center;">Be The Hero</h1>
+<h2 style="text-align: center;">
+
+![[Back-End]('https://github.com/mateusfg7/BeTheHero-Backend')]('https://img.shields.io/badge/Back--End-NodeJS-green?style=flat-square')
+![[Front-End]('https://github.com/mateusfg7/BeTheHero-Frontend')]('https://img.shields.io/badge/Front--End-ReactJS-blue?style=flat-square')
+![[Mobile]('https://github.com/mateusfg7/BeTheHero-Mobile')]('https://img.shields.io/badge/Mobile-ReactNative-9cf?style=flat-square')
+
+</h2>
+
+_Backend da aplicação 'Be The Hero', feita na Semana OmniStack 11 da Rocketseat_
 
 ---
 
@@ -27,7 +35,11 @@ module.exports = {
     client: 'sqlite3',
     connection: {
       filename: './src/database/db.sqlite'
-    }
+    },
+    migrations: {
+      directory: './src/database/migrations'
+    },
+    useNullAsDefault: true,
   },
 
   staging: {
