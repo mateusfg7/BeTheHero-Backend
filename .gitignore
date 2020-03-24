@@ -105,3 +105,6 @@ dist
 
 # Cache
 *-lock.json
+
+# database
+knexfile.js
