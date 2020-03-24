@@ -3,18 +3,20 @@ Backend da aplicação 'Be The Hero', feita na Semana Omnistack 11 da Rocketseat
 
 ---
 
-## Iniciar Servidor
+## Server
+### Iniciar Servidor
 ```bash
 npm start
 ```
 
-## Iniciar knex com o arquivo de configuração do banco de dados
+## Database
+### Iniciar knex com o arquivo de configuração do banco de dados
 
 ```bash
 npx knex init
 ```
 
-Arquivo de configuração **knexfile.js**
+### Arquivo de configuração **knexfile.js**
 
 ```JS
 // Update with your config settings.
@@ -62,4 +64,9 @@ module.exports = {
 
 };
 
+```
+
+### Criar Database
+```bash
+npx knex migrate:latest
 ```
