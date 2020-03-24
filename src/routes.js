@@ -4,12 +4,12 @@ const connection = require('./database/connection')
 
 const routes = express.Router()
 
-routes.post('/ongs', (request, response) => {
+routes.post('/ongs', async (request, response) => {
     const { name, email, whatsapp, dity, uf } = request.body
 
     const id = crypto.randomBytes(4).toString('HEX')
 
-    connection('ongs').insert({
+    await connection('ongs').insert({
         id,
         name,
         email,
@@ -18,7 +18,7 @@ routes.post('/ongs', (request, response) => {
         uf,
     })
 
-    return response.json()
+    return response.json({ id })
 });
 
 module.exports = routes
