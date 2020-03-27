@@ -4,7 +4,8 @@
   "description": "Backend da aplicação 'Be The Hero', feita na Semana Omnistack 11 da Rocketseat",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
