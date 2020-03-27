@@ -3,18 +3,15 @@
 
 ![Be The Hero](doc/logo.svg)
 
-</h1>
-<h2 align="center">
-
 [![BACK-END](https://img.shields.io/badge/BACK--END-NodeJS-green?style=flat-square)](https://github.com/mateusfg7/BeTheHero-Backend)
 [![FRONT-END](https://img.shields.io/badge/FRONT--END-ReactJS-blue?style=flat-square)](https://github.com/mateusfg7/BeTheHero-Frontend)
 [![MOBILE](https://img.shields.io/badge/MOBILE-ReactNative-9cf?style=flat-square)](https://github.com/mateusfg7/BeTheHero-Mobile)
 
-</h2>
+</h1>
 
 <h3 align="center">
 
-_Backend da aplicação 'Be The Hero', feita na Semana OmniStack 11 da Rocketseat_
+_Backend da aplicação 'Be The Hero', feita na Semana OmniStack 11 da [Rocketseat](https://rocketseat.com.br/)_
 
 </h3>
 
