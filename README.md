@@ -29,13 +29,13 @@ Instrutor: [Diego Fernandes](https://github.com/diego3g)
 
 ---
 
-## Server
-### Iniciar Servidor
+**App feito com [Node JS]()**
+
+## Instalar dependências
 ```bash
-npm start
+npm install
 ```
-## Database
-### Iniciar knex com o arquivo de configuração do banco de dados
+## Iniciar knex com o arquivo de configuração do banco de dados
 ```bash
 npx knex init
 ```
@@ -101,7 +101,21 @@ module.exports = {
 
 };
 ```
-### Criar Database
+## Criar Database
 ```bash
 npx knex migrate:latest
 ```
+## Iniciar Servidor
+```bash
+npm start
+```
+## Estrutura
+
+- `tests/` -> pasta com tetes automatisados
+- `tests/unit` -> pasta com tetes unitários
+- `tests/Integration` -> pasta com tetes de rotas
+- `src/app.js` -> arquivo principal
+- `src/routes.js` -> arquivo de rotas 
+- `src/server.js` -> arquivo para ativar servidor
+- `src/utils` -> funções úteis 
+- `src/database` -> arquivos de configuração e conexão com o banco de dados
